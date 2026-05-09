@@ -1,11 +1,10 @@
-Categories:
-  - Sports
+Categories: News & Magazines
 License: MIT
 AuthorName: Alek MacWilliams
 AuthorEmail: alekisok@gmail.com
-WebSite: https://github.com/YOUR_USERNAME/PuckTrackExpo
-SourceCode: https://github.com/YOUR_USERNAME/PuckTrackExpo
-IssueTracker: https://github.com/YOUR_USERNAME/PuckTrackExpo/issues
+WebSite: https://github.com/5S6/PuckTrackApp
+SourceCode: https://github.com/5S6/PuckTrackApp
+IssueTracker: https://github.com/5S6/PuckTrackApp/issues
 
 AutoName: PuckTrack
 
@@ -22,7 +21,7 @@ AntiFeatures:
     a proprietary third-party service.
 
 RepoType: git
-Repo: https://github.com/YOUR_USERNAME/PuckTrackExpo
+Repo: https://github.com/5S6/PuckTrackApp
 
 Builds:
   - versionName: '1.0.0'
