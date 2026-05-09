@@ -1,0 +1,43 @@
+Categories:
+  - Sports
+License: MIT
+AuthorName: Alek MacWilliams
+AuthorEmail: alekisok@gmail.com
+WebSite: https://github.com/YOUR_USERNAME/PuckTrackExpo
+SourceCode: https://github.com/YOUR_USERNAME/PuckTrackExpo
+IssueTracker: https://github.com/YOUR_USERNAME/PuckTrackExpo/issues
+
+AutoName: PuckTrack
+
+Description: |-
+  PuckTrack is an NHL live scores app. Follow your favourite team's score in
+  real time, browse the full league schedule, check team stats, leaderboards,
+  standings, and the playoff bracket — all in one place.
+
+  NOTE: PuckTrack fetches live data from the public NHL Stats API
+  (api-web.nhle.com). An internet connection is required.
+
+AntiFeatures:
+  NonFreeNet: Live game data is fetched from the NHL Stats API (api-web.nhle.com),
+    a proprietary third-party service.
+
+RepoType: git
+Repo: https://github.com/YOUR_USERNAME/PuckTrackExpo
+
+Builds:
+  - versionName: '1.0.0'
+    versionCode: 1
+    commit: v1.0.0
+    subdir: android
+    sudo:
+      - apt-get update
+      - apt-get install -y nodejs npm
+    prebuild:
+      - cd .. && npm install
+    gradle:
+      - yes
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
+CurrentVersion: '1.0.0'
+CurrentVersionCode: 1
