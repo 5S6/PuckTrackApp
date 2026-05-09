@@ -18,8 +18,7 @@ Description: |-
   (api-web.nhle.com). An internet connection is required.
 
 AntiFeatures:
-  - NonFreeNet: Live game data is fetched from the NHL Stats API (api-web.nhle.com),
-      a proprietary third-party service.
+  - NonFreeNet
 
 RepoType: git
 Repo: https://github.com/5S6/PuckTrackApp
@@ -37,7 +36,7 @@ Builds:
     gradle:
       - yes
 
-AutoUpdateMode: Version %v
+AutoUpdateMode: Version
 UpdateCheckMode: Tags
 CurrentVersion: '1.0.0'
 CurrentVersionCode: 1
