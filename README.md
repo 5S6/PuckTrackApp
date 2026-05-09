@@ -75,10 +75,10 @@ Track stats across 5 categories:
 - **React Native** + **Expo Router** — Native performance on iOS & Android
 - **TypeScript** — Type-safe development end-to-end
 - **Zustand** — Lightweight, fast state management
-- **NHL Stats API** — Official league data, real-time
+- **NHL Web API** — Official league data, real-time
 - **Dark-first design system** — Crafted for immersion
 
-All data flows directly from the official [NHL Stats API](https://statsapi.web.nhl.com/). No caching layers, no delays—just live league information.
+All data flows directly from the [NHL Web API](https://api-web.nhle.com/v1). No caching layers, no delays—just live league information.
 
 ---
 
@@ -170,7 +170,7 @@ Released under the [MIT License](LICENSE).
 
 ## 🙏 Credits
 
-Built with [Expo](https://expo.dev/), powered by the [NHL Stats API](https://statsapi.web.nhl.com/).
+Built with [Expo](https://expo.dev/), powered by the [NHL Web API](https://api-web.nhle.com/v1).
 
 ---
 
