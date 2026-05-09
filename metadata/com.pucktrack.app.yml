@@ -1,4 +1,5 @@
-Categories: Sports & Health
+Categories:
+  - Sports & Health
 License: MIT
 AuthorName: Alek MacWilliams
 AuthorEmail: alekisok@gmail.com
@@ -17,8 +18,8 @@ Description: |-
   (api-web.nhle.com). An internet connection is required.
 
 AntiFeatures:
-  NonFreeNet: Live game data is fetched from the NHL Stats API (api-web.nhle.com),
-    a proprietary third-party service.
+  - NonFreeNet: Live game data is fetched from the NHL Stats API (api-web.nhle.com),
+      a proprietary third-party service.
 
 RepoType: git
 Repo: https://github.com/5S6/PuckTrackApp
@@ -36,7 +37,7 @@ Builds:
     gradle:
       - yes
 
-AutoUpdateMode: Version v%v
+AutoUpdateMode: Version %v
 UpdateCheckMode: Tags
 CurrentVersion: '1.0.0'
 CurrentVersionCode: 1
