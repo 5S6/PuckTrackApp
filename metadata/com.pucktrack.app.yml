@@ -1,0 +1,39 @@
+AntiFeatures:
+  - NonFreeNet
+Categories:
+  - Sports & Health
+License: MIT
+AuthorName: Alek MacWilliams
+AuthorEmail: alekisok@gmail.com
+WebSite: https://github.com/5S6/PuckTrackAppExpo
+SourceCode: https://github.com/5S6/PuckTrackAppExpo
+IssueTracker: https://github.com/5S6/PuckTrackAppExpo/issues
+
+AutoName: PuckTrack
+Description: |-
+  PuckTrack is a React Native NHL live scores app. Follow your favourite
+  team's score in real time, browse the full league schedule, check team stats,
+  leaderboards, standings, and the playoff bracket — all in one place.
+
+  NOTE: PuckTrack fetches live data from the public NHL Stats API
+  (api-web.nhle.com). An internet connection is required.
+
+RepoType: git
+Repo: https://github.com/5S6/PuckTrackAppExpo
+
+Builds:
+  - versionName: '1.0'
+    versionCode: 1
+    commit: v1.0
+    subdir: android
+    sudo:
+      - apt-get update
+      - apt-get install -y nodejs npm
+    gradle:
+      - yes
+    prebuild: cd .. && npm ci
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: '1.0'
+CurrentVersionCode: 1

@@ -1,0 +1,12 @@
+PuckTrack is a free and open source React Native NHL companion app. Pick your team and get live scores, browse the full league schedule, track player stats and leaderboards, follow standings by division, and watch the playoff bracket update in real time.
+
+Features:
+• Live game scores for your favourite team
+• Full league schedule — browse every game each day
+• Player stat leaderboards (goals, assists, points, save %, GAA)
+• Division standings with playoff position indicators
+• Live playoff bracket with series-by-series results
+• 32-team picker — switch your tracked team any time
+• Dark theme designed for night-game watching
+
+PuckTrack uses the public NHL Stats API for all data. An internet connection is required. No account needed, no ads, no tracking.
