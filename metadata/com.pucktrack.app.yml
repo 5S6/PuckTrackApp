@@ -24,7 +24,7 @@ Builds:
     sudo:
       - apt-get update
       - apt-get install -y npm
-      - apt-get install -y openjdk-17-jdk-headless
+      - apt-get install -y openjdk-21-jdk-headless
     gradle:
       - yes
     prebuild: cd .. && npm install --ignore-scripts
